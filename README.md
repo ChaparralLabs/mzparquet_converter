@@ -4,7 +4,7 @@ Convert mass spectrometry vendor files to the open [`.mzparquet`](https://github
 
 ## Downloads
 
-👉 **[Latest Release](https://github.com/chaparrallabs/mzparquet_converter/releases/latest)**
+👉 **[Latest Release](https://github.com/ChaparralLabs/mzparquet_converter/releases/latest)**
 
 ### GUI Application
 
@@ -15,9 +15,11 @@ Drag-and-drop desktop app for batch conversion.
 | Windows x64 | `.msi` installer or `.exe` setup |
 | macOS Apple Silicon | `.dmg` |
 
+> Linux users: use the CLI tools below.
+
 ### Command-Line Tools
 
-Standalone binaries for scripting, pipelines, and HPC clusters.
+Standalone binaries for scripting, pipelines, and HPC clusters. No installation required — download and run.
 
 | Binary | Description | Windows | Linux | macOS |
 |--------|-------------|:-------:|:-----:|:-----:|
