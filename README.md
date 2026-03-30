@@ -103,6 +103,24 @@ print(df.head())
 | Thermo Fisher | `.raw` | ThermoParquet | Windows, Linux |
 | Bruker timsTOF | `.d` | dotD2parquet | Windows, Linux, macOS |
 
+## Linux Compatibility
+
+CLI binaries are built on Ubuntu 22.04 (glibc 2.35). Compatible distros:
+
+| Distro | glibc | Compatible |
+|--------|-------|:----------:|
+| Ubuntu 22.04 LTS | 2.35 | ✅ |
+| Ubuntu 24.04 LTS | 2.39 | ✅ |
+| Debian 12 (Bookworm) | 2.36 | ✅ |
+| Fedora 36+ | 2.35+ | ✅ |
+| Rocky / Alma Linux 9 | 2.34 | ❌ |
+| Ubuntu 20.04 LTS | 2.31 | ❌ |
+| CentOS 7 | 2.17 | ❌ |
+
+> **Requires glibc ≥ 2.35.** Check your version: `ldd --version`
+>
+> ThermoParquet additionally requires `libicu` and `openssl` (pre-installed on most Ubuntu/Debian systems).
+
 ## License
 
 Copyright © Chaparral Labs. All rights reserved.
