@@ -2,7 +2,27 @@
 
 Convert mass spectrometry vendor files to the open [`.mzparquet`](https://github.com/mzparquet) format.
 
-## Downloads
+Download all binaries and installers from the [Releases page](https://github.com/ChaparralLabs/mzparquet_converter/releases).
+
+For full documentation see the [mzParquet Converter manual](https://manual.chaparral.ai/command_line_tools/mzparquet_converter/).
+
+## GUI Application
+
+A desktop application for drag-and-drop conversion without the command line. Download the latest installer from the [Releases page](https://github.com/ChaparralLabs/mzparquet_converter/releases).
+
+| Platform | Thermo `.raw` | Bruker `.d` |
+|----------|:-------------:|:-----------:|
+| Windows  | ✅ | ✅ |
+| macOS (Apple Silicon) | ❌ | ✅ |
+
+Features:
+- **Drag and drop** `.raw` files or `.d` folders
+- **Batch conversion** with real-time progress tracking
+- **Skip existing** outputs (with option to force re-convert)
+
+> **Note:** Thermo `.raw` conversion is not available on macOS due to ThermoFisher library limitations. Linux users: use the CLI tools below.
+
+## CLI Downloads
 
 ### ThermoParquet — Thermo `.raw` → `.mzparquet`
 
