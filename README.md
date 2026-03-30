@@ -4,40 +4,24 @@ Convert mass spectrometry vendor files to the open [`.mzparquet`](https://github
 
 ## Downloads
 
-👉 **[Latest Release](https://github.com/ChaparralLabs/mzparquet_converter/releases/latest)**
+### ThermoParquet — Thermo `.raw` → `.mzparquet`
 
-### GUI Application
-
-Drag-and-drop desktop app for batch conversion.
-
-| Platform | Format |
-|----------|--------|
-| Windows x64 | `.msi` installer or `.exe` setup |
-| macOS Apple Silicon | `.dmg` |
-
-> Linux users: use the CLI tools below.
-
-### Command-Line Tools
-
-Standalone binaries for scripting, pipelines, and HPC clusters. No installation required — download and run.
-
-| Binary | Description | Windows | Linux | macOS |
-|--------|-------------|:-------:|:-----:|:-----:|
-| `ThermoParquet` | Thermo `.raw` → `.mzparquet` | ✅ | ✅ | — |
-| `dotD2parquet` | Bruker `.d` → `.mzparquet` | ✅ | ✅ | ✅ |
+| Platform | Download |
+|----------|----------|
+| Windows x64 | [ThermoParquet-x86_64-pc-windows-msvc.exe](https://github.com/ChaparralLabs/mzparquet_converter/releases/download/latest/ThermoParquet-x86_64-pc-windows-msvc.exe) |
+| Linux x64 | [ThermoParquet-x86_64-unknown-linux-gnu](https://github.com/ChaparralLabs/mzparquet_converter/releases/download/latest/ThermoParquet-x86_64-unknown-linux-gnu) |
 
 > **Note:** ThermoParquet requires the ThermoFisher RawFileReader runtime, which is only available on Windows and Linux.
 
+### dotD2parquet — Bruker `.d` → `.mzparquet`
+
+| Platform | Download |
+|----------|----------|
+| Windows x64 | [dotD2parquet-x86_64-pc-windows-msvc.exe](https://github.com/ChaparralLabs/mzparquet_converter/releases/download/latest/dotD2parquet-x86_64-pc-windows-msvc.exe) |
+| Linux x64 | [dotD2parquet-x86_64-unknown-linux-gnu](https://github.com/ChaparralLabs/mzparquet_converter/releases/download/latest/dotD2parquet-x86_64-unknown-linux-gnu) |
+| macOS Apple Silicon | [dotD2parquet-aarch64-apple-darwin](https://github.com/ChaparralLabs/mzparquet_converter/releases/download/latest/dotD2parquet-aarch64-apple-darwin) |
+
 ## Usage
-
-### GUI
-
-1. Download and install the GUI for your platform
-2. Drag `.raw` files or `.d` folders onto the window (or use the Browse buttons)
-3. Click **Convert** — progress bars show per-file status
-4. Output `.mzparquet` files are written next to the originals
-
-### CLI
 
 ```bash
 # Thermo .raw → .mzparquet
