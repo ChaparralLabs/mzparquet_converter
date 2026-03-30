@@ -8,7 +8,13 @@ For full documentation see the [mzParquet Converter manual](https://manual.chapa
 
 ## GUI Application
 
-A desktop application for drag-and-drop conversion without the command line. Download the latest installer from the [Releases page](https://github.com/ChaparralLabs/mzparquet_converter/releases).
+A desktop application for drag-and-drop conversion without the command line.
+
+| Platform | Download |
+|----------|----------|
+| Windows x64 (.msi) | [mzParquet Converter Installer](https://github.com/ChaparralLabs/mzparquet_converter/releases/download/latest/mzParquet.Converter_0.1.0_x64_en-US.msi) |
+| Windows x64 (.exe) | [mzParquet Converter Setup](https://github.com/ChaparralLabs/mzparquet_converter/releases/download/latest/mzParquet.Converter_0.1.0_x64-setup.exe) |
+| macOS Apple Silicon (.dmg) | [mzParquet Converter](https://github.com/ChaparralLabs/mzparquet_converter/releases/download/latest/mzParquet.Converter_0.1.0_aarch64.dmg) |
 
 | Platform | Thermo `.raw` | Bruker `.d` |
 |----------|:-------------:|:-----------:|
